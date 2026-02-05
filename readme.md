@@ -3,18 +3,17 @@
 Ambiente de testes para criar jogos incrementais, ou fazer pequenos protótipos,
 ou qualquer coisa que saia.
 
-## Base
+## Primeira vez
 
-Preciso de uma base para os protótipos.
-A princípio serão pequenos sistemas para testes e aprendizados.
-Quero ser o mais simples possível, mas ter ferramentas como
-hmr, usar typescript, etc.
+Comecei estabelecendo uma estrutura básica para o loop, depois de uma tentativa
+estrana usando setTimeout pesquisei sobre e o google me trouxe o `requestAnimationFrame`
+implementei o loop com ele.
 
-Posso usar um servidor com express e handlebars como template engine.
-Preciso ter uma template engine.
-Isso me permite criar apis caso necessário.
+Depois disso foi a criação das classes básicas, com um render que praticamente cria um botão
+com as informações de cada "trabalhador".
 
-Porém eu perco um pouco a possibilidade de hmr, que eu poderia ter
-com um projeto usando vite, por exemplo.
+A classe Counter foi onde explorei a ideia de executar "uma ação por segundo" dentro do loop
+aí criei as classes "trabalhadoras" usando esse conceito e flexibilizando o intervalo
 
-Posso fazer o hmr na mão também.
+Por fim fiz o método (mega simples né) para mudar o recurso global, retornando um boleano
+indicando se a transação pode ser feita ou não.
