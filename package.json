@@ -1,0 +1,25 @@
+{
+  "name": "inc-game",
+  "version": "1.0.0",
+  "description": "Ambiente de testes para criar jogos incrementais, ou fazer pequenos protótipos, ou qualquer coisa que saia.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "test": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.2.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "esbuild": "^0.27.2",
+    "express": "^5.2.1",
+    "hbs": "^4.2.0"
+  }
+}
