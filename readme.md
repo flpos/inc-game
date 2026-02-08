@@ -32,6 +32,15 @@ Só podemos coletar um recurso por vez.
 Logo depois teremos os extratores que utilizam carvão.
 Eles vão utilizar o carvão para extrair o recurso.
 
+Realizei uma tentativa de adicionar armazenamentos para os recursos.
+Será de lá que pegarei recursos para construir as fábricas.
+Porém não estou satisfeito com a organização do sistema, talvez o uso de classes
+dessa forma não seja o ideal, talvez haja uma forma melhor de conectar as coisas.
+
+Definitivamente já quero muito uma forma de automatizar os recursos
+a primeira deverá ser a furnace, para poder produzir as placas de ferro
+necessárias para a criação das montadoras
+
 #### Recursos iniciais
 
 - Carvão
