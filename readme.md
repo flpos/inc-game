@@ -17,3 +17,38 @@ aí criei as classes "trabalhadoras" usando esse conceito e flexibilizando o int
 
 Por fim fiz o método (mega simples né) para mudar o recurso global, retornando um boleano
 indicando se a transação pode ser feita ou não.
+
+## Tentativa dois
+
+### Factorio incremental
+
+Jogo incremental sobre coletar recursos e transformar esses recursos em outras coisas.
+Vamos seguir as receitas já existentes no factorio. Porém começando com os mais básicos.
+
+Deverá haver um elemento na tela para cada tipo de recurso.
+O jogador poderá clicar em um recurso para coletar ele manualmente.
+Só podemos coletar um recurso por vez.
+
+Logo depois teremos os extratores que utilizam carvão.
+Eles vão utilizar o carvão para extrair o recurso.
+
+#### Recursos iniciais
+
+- Carvão
+- Ferro
+- Cobre
+- Pedra
+
+#### Recursos secundários
+
+- placa de ferro
+- placa de cobre
+- catracas
+- fio de cobre
+
+#### Fabricas
+
+Produzem recursos secundários
+
+- Furnace
+- Montadora
